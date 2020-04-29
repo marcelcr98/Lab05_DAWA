@@ -25,19 +25,19 @@ module.exports= {
                 renderHTML('./vistas/index.html',response);         
                 break;
             case '/nosotros':
-                renderHTML('./vistas//nosotros.html',response);         
+                renderHTML('./vistas/nosotros.html',response);         
                 break;
             case '/servicios':
-                renderHTML('./vistas//servicios.html',response);         
+                renderHTML('./vistas/servicios.html',response);         
                 break;
             case '/contact':
-                renderHTML('./vistas//contact.html',response);         
+                renderHTML('./vistas/contact.html',response);         
                 break;
             case '/confirm':
-                renderHTML('./vistas//confirm.html',response);         
+                renderHTML('./vistas/confirm.html',response);         
                 break;
             default:
-                renderHTML('./vistas//404.html',response);
+                renderHTML('./vistas/404.html',response);
                 break;
 
         }
